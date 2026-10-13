@@ -1,0 +1,26 @@
+export default {
+  title: 'Hello!',
+  titleRo: 'Salut!',
+  emoji: '👋',
+  color: '#ff8a65',
+  words: [
+    { en: 'hello', ro: 'salut', emoji: '👋', cap: true, tip: 'Poți spune și „hi” (se aude „hai”).' },
+    { en: 'goodbye', ro: 'la revedere', emoji: '🚶', cap: true, tip: 'Mai scurt: „bye” (se aude „bai”).' },
+    { en: 'yes', ro: 'da', emoji: '✅', cap: true },
+    { en: 'no', ro: 'nu', emoji: '❌', cap: true },
+    { en: 'please', ro: 'te rog', emoji: '🙏', cap: true, tip: 'ea = „i” lung: „pliiz”.' },
+    { en: 'thank you', ro: 'mulțumesc', emoji: '💐', cap: true, tip: 'th: pune vârful limbii între dinți și suflă.' },
+    { en: 'good morning', ro: 'bună dimineața', emoji: '🌅', cap: true },
+    { en: 'good night', ro: 'noapte bună', emoji: '🌙', cap: true, tip: 'gh nu se aude: „nait”.' },
+    { en: 'boy', ro: 'băiat', emoji: '👦' },
+    { en: 'girl', ro: 'fată', emoji: '👧', tip: 'Se aude cam ca „găăl”.' },
+  ],
+  phrases: [
+    { en: "What's your name?", ro: 'Cum te cheamă?' },
+    { en: 'My name is Alex.', ro: 'Numele meu este Alex.' },
+    { en: 'How are you?', ro: 'Ce mai faci?' },
+    { en: "I'm fine, thank you.", ro: 'Sunt bine, mulțumesc.' },
+    { en: "I'm a boy.", ro: 'Sunt băiat.' },
+    { en: "I'm a girl.", ro: 'Sunt fată.' },
+  ],
+};

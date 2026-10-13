@@ -1,0 +1,27 @@
+export default {
+  title: 'Family',
+  titleRo: 'Familie',
+  emoji: '👨‍👩‍👧‍👦',
+  color: '#f06292',
+  words: [
+    { en: 'mum', ro: 'mamă', emoji: '👩', cap: true, tip: 'u se aude ca un „a” scurt: „mam”.' },
+    { en: 'dad', ro: 'tată', emoji: '👨', cap: true, tip: 'a se aude între „a” și „e”: „ded”.' },
+    { en: 'brother', ro: 'frate', emoji: '👬', cap: true, tip: 'th cu voce: limba între dinți, ca un „z” moale.' },
+    { en: 'sister', ro: 'soră', emoji: '👭', cap: true },
+    { en: 'grandma', ro: 'bunică', emoji: '👵', cap: true, tip: 'd aproape nu se aude: „granma”.' },
+    { en: 'grandpa', ro: 'bunic', emoji: '👴', cap: true, tip: 'd aproape nu se aude: „granpa”.' },
+    { en: 'baby', ro: 'bebeluș', emoji: '👶', tip: 'Se aude „beibi”.' },
+    { en: 'family', ro: 'familie', emoji: '👨‍👩‍👧‍👦', cap: true },
+    { en: 'friend', ro: 'prieten', emoji: '🤝', cap: true, tip: 'i nu se aude: „frend”.' },
+    { en: 'me', ro: 'eu', emoji: '🙋', cap: true, tip: 'Se aude „mii”.' },
+  ],
+  phrases: [
+    { en: 'This is my mum.', ro: 'Aceasta este mama mea.' },
+    { en: 'This is my dad.', ro: 'Acesta este tatăl meu.' },
+    { en: "I've got a sister.", ro: 'Am o soră.' },
+    { en: "I've got a brother.", ro: 'Am un frate.' },
+    { en: 'Who is this?', ro: 'Cine este acesta?' },
+    { en: 'This is my friend.', ro: 'Acesta este prietenul meu.' },
+    { en: 'I love my family.', ro: 'Îmi iubesc familia.' },
+  ],
+};
